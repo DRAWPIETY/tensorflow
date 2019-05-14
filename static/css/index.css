@@ -1,0 +1,30 @@
+*{margin: 0;padding: 0;}
+ul{
+  list-style: none;
+}
+body{
+  overflow: hidden;
+}
+#canvas{
+  margin-top: 40px;
+  background: #808080;
+  display: block;
+}
+.actions{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  padding: 7px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #467eb9;
+  color: #f60;
+}
+#clear,#save,#send,#back{
+  background: #467eb9;
+  color: #16e0d8;
+  padding: 4px 8px;
+}
